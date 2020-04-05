@@ -1,13 +1,7 @@
- version: 2.1
-
- orbs:
-  win: circleci/linux
-
- jobs:
-   build:
-    executor: linux
-    machine: true
-    
+version: 2
+jobs:
+ build:
+   machine: true
    steps:
      - checkout 
 
